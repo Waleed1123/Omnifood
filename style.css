@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar CSS */
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px;
+    background-color: #fdf2e9;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.icon-ul li {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
+}
+
+.icon-ul li:hover {
+    cursor: pointer;
+    color: #e67e22;
+    transition: all 0.5s;
+}
+
+button.free {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #e67e22;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: white;
+}
+
+button.free:hover {
+    background-color: #c56109;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* A Healthy Meal CSS  */
+.healthy-img img {
+    width: 100%;
+}
+
+.background-meal {
+    background-color: #fdf2e9;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 5rem;
+}
+
+.healthy-meal {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px 0 20px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.healthy-para {
+    padding-top: 3rem;
+}
+
+.healthy-para h2 {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    margin-bottom: 35px;
+    width: 90%;
+}
+
+.healthy-para p {
+    font-size: 1.25rem;
+    width: 85%;
+    line-height: 1.9rem;
+    color: rgb(125, 125, 125);
+    margin: 35px 0;
+}
+
+span.eating-btn button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+span.eating-btn button.eating {
+    background-color: #e67e22;
+    color: white;
+    font-weight: bold;
+}
+
+span.eating-btn button.learn {
+    background-color: white;
+    color: rgb(125, 125, 125);
+    font-weight: bold;
+}
+.img-div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.img-div p{
+    /* display: inline; */
+    margin-left: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.img-div p i{
+    color: #c56109;
+}
+.img-div img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: -20px;
+    border: 2px solid #fdf2e9;
+}
+/* Brand Div CSS */
+.brand-div{
+    padding-top: 2rem;
+    width: 80%;
+}
+.brand-div p{
+    color: rgb(125, 125, 125);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.brands img{
+    width: 50px;
+    color: rgb(125, 125, 125);
+    filter: brightness(0);
+    opacity: 50%;
+
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+}
