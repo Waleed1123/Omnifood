@@ -498,3 +498,104 @@ div.testimonials-imgs img:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
+
+/* Pricing Section */
+
+section.pricing-div {
+    padding-top: 5rem;
+    width: 90%;
+    margin: 25px auto;
+}
+
+div.pricing-text p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #c56109;
+    margin-bottom: 10px;
+}
+
+div.pricing-text h3 {
+    font-size: 2.7rem;
+    margin: 20px 0 50px 0;
+}
+
+div.pricing-card-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.pricing-card {
+    z-index: -1;
+    padding-top: 25px;
+    border-radius: 10px;
+    width: 40%;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        border: 0.5px solid #e2822fa7;
+}
+
+div.pricing-card p.plan {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #c56109;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.pricing-card p.price {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+div.pricing-card p.price span {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+div.pricing-card p.month {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: rgb(125, 125, 125);
+    text-align: center;
+}
+
+div.pricing-card ul {
+    text-align: justify;
+    padding: 25px;
+    padding-left: 5rem;
+    margin: 50px auto;
+}
+
+div.pricing-card ul li {
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+div.pricing-card ul li.one{
+    color: white;
+}
+div.pricing-card button {
+    padding: 13px 15px;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #e67e22;
+}
+div.pricing-card2{
+    background-color: #fdf2e9;
+    border: none;
+}
