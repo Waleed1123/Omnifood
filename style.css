@@ -152,7 +152,6 @@ span.eating-btn button.learn {
     color: rgb(125, 125, 125);
     filter: brightness(0);
     opacity: 50%;
-
 }
 
 .brands {
@@ -216,7 +215,7 @@ div.app-setting-text p {
     color: rgb(126, 126, 126);
     padding: 5px;
     padding-right: 10px;
-    text-align: justify
+    text-align: justify;
 }
 
 div.app-img img {
@@ -255,13 +254,12 @@ div.app-setting-text2 p {
     color: rgb(126, 126, 126);
     /* padding: 5px; */
     /* padding-left: 10px; */
-    text-align: justify
+    text-align: justify;
 }
 
 div.app-img2 img {
     width: 160px;
     margin-right: 4rem;
-
 }
 
 /* Meals Card Div CSS */
@@ -274,7 +272,6 @@ div.meal-cards {
 
 div.meal-card-text {
     text-align: center;
-
 }
 
 div.meal-card-text p {
@@ -282,7 +279,6 @@ div.meal-card-text p {
     color: #c56109;
     text-transform: uppercase;
     margin-bottom: 15px;
-
 }
 
 div.meal-card-text h3 {
@@ -298,7 +294,6 @@ div.main-card-div {
     align-items: center;
     column-gap: 3rem;
     margin: 25px auto;
-
 }
 
 div.card {
@@ -306,11 +301,13 @@ div.card {
     margin-top: 25px;
     height: 480px;
     border-radius: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 div.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: all 0.7s;
 }
 
@@ -342,7 +339,6 @@ span.card-no-2 p {
     padding: 3px 6px;
     margin-right: 5px;
     font-weight: 600;
-
 }
 
 span.card-no-2 p.one {
@@ -415,12 +411,90 @@ div.all-recipes {
 div.all-recipes p {
     font-size: 1.2rem;
     text-decoration: underline;
-
 }
 
 div.all-recipes p:hover {
     transition: all 0.5s;
-    text-decoration:white;
+    text-decoration: white;
     color: #c56109;
     cursor: pointer;
+}
+
+/* Testimonials Section Start */
+section.testimonials {
+    padding: 70px 50px 50px 0;
+    background-color: #fdf2e9;
+}
+
+div.testimonial-parent {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 50px;
+    margin: 10px auto;
+}
+
+section.testimonials div.reviews {
+    /* margin-top: 80px; */
+    width: 50%;
+
+}
+
+div.reviews p.testi {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+div.reviews h3 {
+    font-size: 2.6rem;
+    width: 90%;
+    color: rgb(53, 53, 53);
+}
+
+div.reviews span {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+div.reviews span img {
+    display: inline-block;
+    width: 65px;
+    border-radius: 50%;
+}
+
+div.reviews span p {
+    /* display: inline-block; */
+    width: 90%;
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+    text-align: justify;
+    line-height: 1.7rem;
+    margin-top: 20px;
+}
+
+div.reviews span p.name {
+    color: rgb(122, 122, 122);
+    font-size: 1rem;
+}
+
+div.testimonials-imgs {
+    width: 50%;
+    text-align: center;
+}
+
+div.testimonials-imgs img {
+    width: 180px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.3s;
+}
+
+div.testimonials-imgs img:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
