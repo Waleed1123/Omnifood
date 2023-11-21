@@ -48,8 +48,9 @@ button.free:hover {
 }
 
 /* A Healthy Meal CSS  */
+
 .healthy-img img {
-    width: 100%;
+    width: 95%;
 }
 
 .background-meal {
@@ -496,7 +497,7 @@ div.testimonials-imgs img {
 
 div.testimonials-imgs img:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
+
 }
 
 /* Pricing Section */
@@ -506,11 +507,12 @@ section.pricing-div {
     width: 90%;
     margin: 25px auto;
 }
-section.pricing-div p.taxes{
+
+section.pricing-div p.taxes {
     margin: 50px 0;
     /* margin-top: 60px; */
     text-align: center;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
     color: rgb(87, 87, 87);
 
 }
@@ -538,13 +540,17 @@ div.pricing-card-div {
 }
 
 div.pricing-card {
-    z-index: -1;
     padding-top: 25px;
     border-radius: 10px;
     width: 40%;
     padding: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-        border: 0.5px solid #e2822fa7;
+    border: 0.2px solid #e67d22bf;
+}
+
+div.pricing-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.6s;
+    cursor: pointer;
 }
 
 div.pricing-card p.plan {
@@ -557,7 +563,7 @@ div.pricing-card p.plan {
     margin-bottom: 50px;
 }
 
-div.pricing-card p.price {
+div div.pricing-card p.price {
     font-size: 4rem;
     text-align: center;
     font-weight: bold;
@@ -589,13 +595,16 @@ div.pricing-card ul li {
     margin-bottom: 15px;
     list-style-type: none;
 }
-div.pricing-card ul li i{
+
+div.pricing-card ul li i {
     font-size: 1.5rem;
     color: black;
 }
-div.pricing-card ul li.one{
+
+div.pricing-card ul li.one {
     color: white;
 }
+
 div.pricing-card button {
     padding: 13px 15px;
     width: 50%;
@@ -606,11 +615,13 @@ div.pricing-card button {
     color: white;
     background-color: #e67e22;
 }
-div.pricing-card2{
+
+div.pricing-card2 {
     background-color: #fdf2e9;
     border: none;
 }
-div.feature-div{
+
+div.feature-div {
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
@@ -620,61 +631,160 @@ div.feature-div{
     margin: 10px auto;
     column-gap: 2rem;
 }
-div.feature{
+
+div.feature {
     /* display: flex; */
     align-content: center;
 }
-div.feature i{
+
+div.feature i {
     text-align: center;
     font-size: 12rem;
     margin: 0 0 50px 5px;
 }
-div.feature h3{
+
+div.feature h3 {
     font-size: 1.6rem;
     margin-bottom: 15px;
     color: #333;
     text-align: left;
 }
-div.feature p{
+
+div.feature p {
     font-size: 1.2rem;
     line-height: 2rem;
     color: #555;
     width: 95%;
-    /* padding: 20px; */
-    text-align:left;    
+    text-align: left;
 }
 
+/* Form Div CSS Starts */
 
+section.form-div-main {
+    height: 600px;
+    margin-top: 5rem;
+    width: 100%;
+}
 
+div.form-div-img {
+    width: 50%;
+    background-image: linear-gradient(to right bottom,
+            rgba(235, 151, 78, 0.35),
+            rgba(230, 125, 34, 0.35)),
+        url("./Image/eating.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 15px 15px 0;
+}
 
+div.form-div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 15px;
+}
 
+hr {
+    color: #e9e9e9be;
+    margin: 5rem 0;
 
+}
 
+div.form-div-text {
+    padding: 60px;
+    border-radius: 15px 0 0 15px;
+    color: #45260a;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
 
+div.form-div-text h3 {
+    font-size: 2.7rem;
+    padding: 5px;
+    margin: 0 0 25px 0;
+}
 
+div.form-div-text p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    width: 90%;
+}
 
+div.form-div-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 25px 0 25px 20px;
+}
 
+div.form-div-input div {
+    width: 40%;
+    margin: 5px;
+}
 
+div.input-div label {
+    font-size: 1.1rem;
+}
 
+div.input-div input {
+    padding: 12px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    width: 15rem;
+    font-size: 1rem;
+}
 
+div.input-div input:active {
+    border: none;
+}
 
+div.input-div input:focus {
+    border: none;
+    box-shadow: 5px 5px 20px white;
+}
 
+div.input-div select {
+    font-size: 1.1rem;
+    margin-top: 20px 0;
+    padding: 12px 20px;
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+    width: 17rem;
+}
 
+div.input-div select,
+option {
+    font-size: 1.1rem;
+    color: #45260a;
+    margin: 15px 0;
 
+}
 
+div.input-div select:focus {
+    box-shadow: 5px 5px 20px white;
+}
 
+div.input-div button {
+    padding: 12px 20px;
+    width: 17.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: #45260a;
+}
 
+div.input-div button:hover {
+   background-color: white;
+    color: #333;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
-
-
-/* 
-
-
-background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/eating.jpg");
-  background-size: cover;
-  background-position: center; */
+/* Footer Container */
