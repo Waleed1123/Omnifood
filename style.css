@@ -778,13 +778,43 @@ div.input-div button {
     font-weight: bold;
     color: white;
     background-color: #45260a;
+    transition: all 0.7s;
 }
 
 div.input-div button:hover {
    background-color: white;
     color: #333;
-    transition: all 0.5s;
     cursor: pointer;
 }
 
 /* Footer Container */
+footer.footer-div{
+    width: 85%;
+    font-size: 1rem;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 10px;
+
+}
+div.copyright p{
+    font-size: 1rem;
+    width: 60%;
+    margin-top: 40px;
+
+}
+div.copyright img{
+    width: 120px;
+}
+
+div.adress p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+div.adress ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    width: 50%;
+    
+}
